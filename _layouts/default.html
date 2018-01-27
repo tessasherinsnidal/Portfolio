@@ -46,9 +46,9 @@
       <div id="Demo" class="w3-dropdown-content pad-t w3-bar-block w3-animate-left">
         <div class="">
           <a rel="home" href="{{site.baseurl}}/" class="w3-bar-item w3-button {{page.current}}">Home</a>
-          <div class="w3-dropdown-hover">
-            <a class="w3-button" style="transition: all .5s ease-in-out .5s, visibility .5s linear .5s, z-index .5s linear .5s;">Case Studies</a>
-            <div class="w3-dropdown-content w3-animate-left">
+          <div class="w3-dropdown-click">
+            <a onclick="myFunction2()" class="w3-button" style="transition: all .5s ease-in-out .5s, visibility .5s linear .5s, z-index .5s linear .5s;">Case Studies</a>
+            <div id="Demo2" class="w3-dropdown-content w3-animate-left">
               <p class="title-sec push-0 gutter text-left">Illustration</p>
               <div class="gutter">
                 <a href="{{site.baseurl}}/guy-ritchie/" class="w3-bar-item w3-button">Guy Ritchie Quotebook</a>
@@ -100,6 +100,16 @@
 <script>
 function myFunction() {
     var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script>
+function myFunction2() {
+    var x = document.getElementById("Demo2");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
     } else {
