@@ -165,8 +165,8 @@ input {
 }
 
 w3-dropdown-hover:hover {
-  -webkit-transition: display 2s; /* Safari */
-  transition: display 2s;
+  -webkit-transition: display 1s; /* Safari */
+  transition: display 1s;
 }
 
 @media only screen and (min-width: 400px) {

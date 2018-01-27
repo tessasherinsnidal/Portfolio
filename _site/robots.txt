@@ -1,3 +1,0 @@
-Sitemap: https://sherinsnidaldesign.ca/sitemap.xml
-
-User-agent: *

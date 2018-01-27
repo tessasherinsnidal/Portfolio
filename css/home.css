@@ -33,7 +33,7 @@ section {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 1s ease;
   backface-visibility: hidden;
   border-bottom: 9px solid #fff;
   border-style: double;
@@ -81,7 +81,6 @@ section {
   .middle {
     position: static;
     opacity: 1;
-    padding-left: 2em;
     text-align: left;
     left: 0;
     top: 0;
