@@ -4943,9 +4943,6 @@ span {
 
 /* Turn off parallax scrolling for tablets and phones */
 
-}
-
-
 @media only screen and (min-width: 400px) {
 
   .img-flex {
