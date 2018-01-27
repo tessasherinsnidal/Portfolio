@@ -110,6 +110,7 @@ footer {
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  width: 100%;
 }
 
 .bgimg-1 {
@@ -143,7 +144,7 @@ footer {
 }
 
 .bgimg-7 {
-  background-image: url("{{site.baseurl}}/images/corner.jpg");
+  background-image: url("{{site.baseurl}}/images/moss.jpg");
   min-height: 100vh;
 }
 
@@ -153,7 +154,7 @@ footer {
 }
 
 .bgimg-9 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/corner.jpg");
   min-height: 100vh;
 }
 
