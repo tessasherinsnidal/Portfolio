@@ -54,11 +54,8 @@ body, html {
 
 .info {
   background-color: var(--color-primary);
-  padding: 1em 1em;
+  padding: 2em;
   text-align: center;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid #fff;
-  border-style: double;
 }
 
 .about {
@@ -70,6 +67,7 @@ body, html {
   text-align: left;
   text-align: left;
   color: #fdfdfd;
+
 }
 
 .border {
