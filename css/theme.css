@@ -46,6 +46,14 @@ main {
   border-right: none;
 }
 
+#footer {
+  border-top: 9px solid #fff;
+  border-style: double;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 /*parallax*/
 body, html {
   height: 100%;
