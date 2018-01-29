@@ -180,6 +180,10 @@ span {
   html {
     letter-spacing: inherit;
   }
+  .circ {
+    display:none;
+  }
+
 }
 
 @media only screen and (min-width: 400px) {
