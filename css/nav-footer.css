@@ -226,6 +226,24 @@ w3-dropdown-hover:hover {
     animation: spin 1.5s linear infinite;
 }
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
+    background-attachment: fixed !important;
+    background-position: center top !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+
+  html {
+    letter-spacing: inherit;
+  }
+  .circ {
+    display:none;
+  }
+
+}
+
 @-webkit-keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
