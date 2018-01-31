@@ -174,67 +174,8 @@ span {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
-    background-image: none !important;
     background-attachment: scroll;
-  }
-
-  .bgimg2-1, .bgimg2-2, .bgimg2-3, .bgimg2-4, .bgimg2-5, .bgimg2-6, .bgimg2-7, .bgimg2-8, .bgimg2-9 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .bgimg2-1 {
-    background-image: url("{{site.baseurl}}/images/main.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-2 {
-    background-image: url("{{site.baseurl}}/images/harvester.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-3 {
-    background-image: url("{{site.baseurl}}/images/cogg.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-4 {
-    background-image: url("{{site.baseurl}}/images/rust.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-5 {
-    background-image: url("{{site.baseurl}}/images/wheel.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-6 {
-    background-image: url("{{site.baseurl}}/images/twigs.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-7 {
-    background-image: url("{{site.baseurl}}/images/moss.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-8 {
-    background-image: url("{{site.baseurl}}/images/me.jpg");
-    height: 100vh;
-  }
-
-  .bgimg2-9 {
-    background-image: url("{{site.baseurl}}/images/corner.jpg");
-    height: 100vh;
+    background-image: linear-gradient(var(--color-primary),var(--color-secondary),var(--color-primary))!important;
   }
 
   html {
