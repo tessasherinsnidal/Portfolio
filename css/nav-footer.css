@@ -50,13 +50,13 @@ a:hover .id-link {
 }
 
 a svg path {
-  fill: #fff;
-  -webkit-transition: fill .5s; /* Safari */
-  transition: fill .5s;
+  fill: #fff!important;
+  -webkit-transition: fill .5s!important; /* Safari */
+  transition: fill .5s!important;
 }
 
 a:hover svg path {
-  fill: var(--color-secondary);
+  fill: var(--color-secondary)!important;
 }
 
 navi {
