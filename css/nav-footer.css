@@ -109,7 +109,7 @@ footer {
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%; 
+  background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -371,6 +371,22 @@ w3-dropdown-hover:hover {
 
 .arrow:hover {
   cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
+    background-attachment: scroll;
+    background-image: linear-gradient(var(--color-primary),var(--color-secondary),var(--color-primary))!important;
+  }
+
+  html {
+    letter-spacing: inherit;
+  }
+  .circ {
+    display:none;
+  }
+
 }
 
 /*Media Query*/
