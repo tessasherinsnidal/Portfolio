@@ -175,6 +175,7 @@ span {
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
     background-image: none !important;
+    background-attachment: scroll;
   }
 
   .bgimg2-1, .bgimg2-2, .bgimg2-3, .bgimg2-4, .bgimg2-5, .bgimg2-6, .bgimg2-7, .bgimg2-8, .bgimg2-9 {
