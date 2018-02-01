@@ -51,7 +51,7 @@ section {
   left: 50%;
   top: 50%;
   opacity: 0;
-  color: white;
+  color: white!important;
   transition: .5s ease;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -88,9 +88,5 @@ section {
     -ms-transform: none;
     font-size: 1rem;
   }
-
-}
-
-@media only screen and (max-device-width: 1024px) {
 
 }

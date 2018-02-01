@@ -30,7 +30,7 @@ a:focus {
   color: var(--color-secondary);
 }
 
-a:hover {
+a:hover, a:hover .phone {
   color: var(--color-secondary);
   text-decoration: underline;
   opacity: 0.65;
@@ -41,7 +41,7 @@ a:active {
   text-decoration: underline;
 }
 
-a:hover .id-link {
+a:hover .id-link, a:hover h2 {
   color: var(--color-secondary);
   -webkit-transition: opacity 1s; /* Safari */
   transition: opacity 1s;
@@ -69,6 +69,10 @@ navi {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
+}
+
+.title-sec {
+  color: var(--color-secondary);
 }
 
 /*footer*/
@@ -402,6 +406,10 @@ w3-dropdown-hover:hover {
 /*enlargen logo*/
 .icon {
   height: 45px;
+}
+
+.phone {
+  max-height: 450px!important;
 }
 
 /*loader page*/

@@ -12,10 +12,6 @@ h1 {
   background-size: cover;
 }
 
-p {
-  text-align: justify;
-}
-
 .piece {
   width: auto;
   max-width: 100%;
