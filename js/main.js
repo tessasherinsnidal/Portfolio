@@ -46,6 +46,33 @@ function myFunction3() {
     }
 }
 
+function myFunction4() {
+    var x = document.getElementById("Demo4");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function myFunction5() {
+    var x = document.getElementById("Demo5");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function myFunction6() {
+    var x = document.getElementById("Demo6");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
 /*for page loader read load*/
 
 window.onload = function() {
