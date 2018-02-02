@@ -171,10 +171,18 @@ span {
   display: none;
 }
 
+.case {
+  text-align: center;
+}
+
 @media only screen and (min-width: 400px) {
 
   .img-flex {
     margin: 0;
+  }
+
+  .case {
+    text-align: left;
   }
 
   .caption p.border {

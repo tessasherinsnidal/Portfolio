@@ -268,7 +268,7 @@ w3-dropdown-hover:hover {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1001;
+  z-index: 999;
   max-width: 370px;
   -webkit-animation: pulse 5s infinite;
   animation: pulse 5s infinite;
@@ -377,11 +377,14 @@ w3-dropdown-hover:hover {
   cursor: pointer;
 }
 
+/*mobile background*/
+
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
     background-attachment: scroll;
-    background-image: linear-gradient(var(--color-primary),var(--color-secondary),var(--color-primary))!important;
+    background-image: linear-gradient( var(--color-primary), var(--color-secondary), var(--color-primary))!important;
   }
 
   html {
