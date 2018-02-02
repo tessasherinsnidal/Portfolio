@@ -32,6 +32,25 @@
 
 <body id="body" class="relative">
 
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '2023701034539141',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
   <div id="loader-wrapper">
       <div id="loader"></div>
       <img id="loader-img" class="s3" src="{{site.baseurl}}/images/favicon.png" alt="Sherin Snidal Design Logo">
@@ -99,6 +118,11 @@
       <i class="icon i-32 push-1-2 gutter">
         <a itemprop="email" class="icon-link" href="mailto:tessa@sherinsnidaldesign.ca"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="468" height="468" viewBox="0 0 468 468" alt="Link to Email"><path d="M388.1 80.5c-41.2-41.2-96-63.9-154.3-63.9S120.7 39.3 79.5 80.5s-63.9 96-63.9 154.3 22.7 113.1 63.9 154.3 96 63.9 154.3 63.9 113.1-22.7 154.3-63.9 63.9-96 63.9-154.3-22.7-113.1-63.9-154.3zM233.8 433c-109.3 0-198.2-88.9-198.2-198.2S124.5 36.6 233.8 36.6 432 125.5 432 234.8 343.1 433 233.8 433z" class="st0"/><path d="M346.3 120H123.6c-16 0-29.1 13.1-29.1 29.1v167.8c0 6.9 2.4 13.3 6.5 18.3.7 1.2 1.6 2.3 2.8 3.2.2.2.5.3.7.5 5.1 4.4 11.8 7.1 19.1 7.1h222.7c16 0 29.1-13.1 29.1-29.1V149.1c0-16-13.1-29.1-29.1-29.1zm-231.8 34.8l65.6 62.1-65.6 89.9v-152zm122.8 88.7l-35.5-33.7c-.6-.9-1.4-1.8-2.4-2.5-.2-.2-.5-.3-.7-.5L128 140h212.6L237.3 243.5zm-42.6-12.7l35.9 34c1.9 1.8 4.4 2.7 6.9 2.7 2.6 0 5.1-1 7.1-2.9l35.4-35.5 64 96.9H125.2l69.5-95.2zm97.5-14l63.2-63.3v159l-63.2-95.7z" class="st0"/></svg></a>
       </i>
+    </div>
+    <div class="gutter-1-2 pad-t-1-2 pad-b-1-2 ">
+      <div class="unit [ xs-1 ] gutter fb-share-button" data-href="http://sherinsnidaldesign.ca" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+        <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsherinsnidaldesign.ca%2F&amp;src=sdkpreparse">Share</a>
+      </div>
     </div>
     <div class="copyright gutter unit [ xs-1 ] pad-t-1-2">
       <p class="footy micro gutter-1-2">© 2018 Sherin-Snidal Design</p>
