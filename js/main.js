@@ -134,3 +134,6 @@ function showDivs2(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-black";
 }
+
+/*Smooth Scrolling*/
+// Select all links with hashes
