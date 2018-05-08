@@ -158,6 +158,10 @@ span {
   opacity: 100%;
 }
 
+.section-links {
+  background-color: var(--color-primary);
+}
+
 .id-link {
   letter-spacing: 4px;
   color: white;
@@ -172,6 +176,16 @@ span {
 }
 
 .case {
+  text-align: center;
+}
+
+.sizzle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: .5s ease;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -211,4 +225,5 @@ span {
   .img-flex {
     height: 100vh;
   }
+
 }
