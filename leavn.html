@@ -13,12 +13,12 @@ link: leavn
 <div itemscope itemtype="https://schema.org/Creativework" class="bgimg-5">
   <div class="dborder">
     <h2 class="text-left section gutter pad-t-2 pad-b-2 push-0 mega">Design Outline</h2>
-    <div class="w3-white pad-t-2 pad-b-2" style="margin:2.6rem;">
+    <div class="w3-white pad-t-2 pad-b-2" style="margin:2.6rem; max-width:1200px; margin-left:auto; margin-right:auto;">
       <h3 class="gutter-2">Font</h3>
       <div class="gutter-2 pad-b-2 case">
-        <div class="pad-b">
-          <img src="{{site.baseurl}}/images/roboto.svg" alt="SF UI Display Font Block" style="width:45%; max-width:350px; display:inline-block;">
-          <img src="{{site.baseurl}}/images/roboto-text.svg" alt="SF UI Display Text" style="width:45%; max-width:350px; display:inline-block;">
+        <div  class="pad-b font">
+          <img src="{{site.baseurl}}/images/roboto.svg" alt="SF UI Display Font Block" style="width:45%; max-width:250px; display:inline-block;">
+          <img src="{{site.baseurl}}/images/roboto-text.svg" alt="SF UI Display Text" style="width:45%; max-width:250px; display:inline-block;">
         </div>
 
       </div>
@@ -50,8 +50,8 @@ link: leavn
       </div>
       <h3 class="gutter-2 pad-t-2">Logo & Wordmark</h3>
       <div class="gutter-2 case">
-        <img src="{{site.baseurl}}/images/leavn-logo.svg" alt="LEAVN Logo" style="width:40%; max-width:300px;">
-        <img src="{{site.baseurl}}/images/leavn-wordmark.svg" alt="LEAVN Wordmark" style="width:40%; max-width:300px;">
+        <img src="{{site.baseurl}}/images/leavn-logo.svg" alt="LEAVN Logo" style="width:40%; max-width:150px;">
+        <img src="{{site.baseurl}}/images/leavn-wordmark.svg" alt="LEAVN Wordmark" style="width:40%; max-width:150px;">
       </div>
       <h3 class="gutter-2 pad-t-2">Low-def Sketches</h3>
       <div class="gutter-2 case">
@@ -62,7 +62,7 @@ link: leavn
 
   <div class="dborder">
     <h2 class="text-left section gutter pad-t-2 pad-b-2 push-0 mega">Design and Flow</h2>
-    <div class="w3-white pad-t-2 pad-b-2 text-center" style="margin:2.6rem;">
+    <div class="w3-white pad-t-2 pad-b-2 text-center" style="margin:2.6rem; max-width:1200px; margin-left:auto; margin-right:auto;">
       <h3 class="gutter-2 text-left">Screens</h3>
 
       <video class="pad-t-2 pad-b-2 gutter-2 text-center block" style="max-width:1000px; margin-left:auto; margin-right:auto;" width="100%" controls>
@@ -100,7 +100,10 @@ link: leavn
             <img class="piece phone float-left" src="{{site.baserurl}}/images/triplog.png" alt="Trip Log">
             <div class="float-right">
               <h3 class="push-1-2 pad-t text-center">Trip Log</h3>
-              <p>The Triplog page allows for a simple quick look at where and when their future trips will be and is not over loaded with all the information about each trip. There is also access to look at past trips to keep a record of previous adventures.</p>
+              <p class="w3-bar-item">The Triplog page allows for a simple quick look at where and when their future trips will be and is not over loaded with all the information about each trip. There is also access to look at past trips to keep a record of previous adventures.</p>
+              <a href="#Demo3" class="arrow" onclick="myFunction3()">
+                <h2 itemprop="name" class="pad-t milli" style="text-align:center!important;">Close X</h2>
+              </a>
             </div>
           </div>
         </div>
@@ -108,7 +111,10 @@ link: leavn
           <div class="wrapper">
             <img class="piece phone" src="{{site.baserurl}}/images/trips.png" alt="Trips">
             <h3 class="push-1-2 pad-t text-center">Trips</h3>
-            <p>The Trip page allows the user to log their future trips and add in the scheduled events during that trip. This way all their trip information is laid out in front of them in a quick simple overview.</p>
+            <p class="w3-bar-item">The Trip page allows the user to log their future trips and add in the scheduled events during that trip. This way all their trip information is laid out in front of them in a quick simple overview.</p>
+            <a href="#Demo4" class="arrow" onclick="myFunction4()">
+              <h2 itemprop="name" class="pad-t milli" style="text-align:center!important;">Close X</h2>
+            </a>
           </div>
         </div>
         <div id="Demo5" class="w3-dropdown-content w3-text-black" style="width:100%; margin-left:auto; margin-right:auto; max-width:500px;"><br>
@@ -116,6 +122,9 @@ link: leavn
             <img class="piece phone" src="{{site.baserurl}}/images/itinerary.png" alt="Itinerary">
             <h3 class="w3-bar-item push-1-2 pad-t">Itinerary</h3>
             <p class="w3-bar-item">The Itinerary page allows the user to quickly and simply see a timeline layout of all their events and to choose whether to send a notification alert to the user's phone and/or smart watch to keep track and not miss a single event.</p>
+            <a href="#Demo5" class="arrow" onclick="myFunction5()">
+              <h2 itemprop="name" class="pad-t milli" style="text-align:center!important;">Close X</h2>
+            </a>
           </div>
         </div>
         <div id="Demo6" class="w3-dropdown-content w3-text-black" style="width:100%; margin-left:auto; margin-right:auto; max-width:500px;"><br>
@@ -123,8 +132,9 @@ link: leavn
             <img class="piece phone" src="{{site.baserurl}}/images/settings.png" alt="Settings">
             <h3 class="w3-bar-item push-1-2 pad-t text-center">Settings</h3>
             <p class="w3-bar-item">The Setting page is just a page where the user can keep track of the notification settings and the user's name. This allows the user to change information whenever required.</p>
-            <span onclick="this.parentElement.style.display='none'"
-            class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
+            <a href="#Demo6" class="arrow" onclick="myFunction6()">
+              <h2 itemprop="name" class="pad-t milli" style="text-align:center!important;">Close X</h2>
+            </a>
           </div>
         </div>
       </div>

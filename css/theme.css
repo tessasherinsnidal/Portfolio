@@ -75,7 +75,6 @@ body, html {
   text-align: left;
   text-align: left;
   color: #fdfdfd;
-
 }
 
 .border {
@@ -177,6 +176,8 @@ span {
 
 .case {
   text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .sizzle {
@@ -187,6 +188,11 @@ span {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 @media only screen and (min-width: 400px) {
@@ -224,6 +230,11 @@ span {
   /*nav*/
   .img-flex {
     height: 100vh;
+  }
+
+  .font {
+    display: inline-block;
+    width: 49%;
   }
 
 }
