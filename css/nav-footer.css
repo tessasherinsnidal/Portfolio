@@ -128,12 +128,12 @@ footer {
 }
 
 .bgimg-2 {
-  background-image: url("{{site.baseurl}}/images/harvester.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-5.jpg");
   min-height: 100vh;
 }
 
 .bgimg-3 {
-  background-image: url("{{site.baseurl}}/images/cogg.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-6.jpg");
   min-height: 100vh;
 }
 
@@ -143,17 +143,17 @@ footer {
 }
 
 .bgimg-5 {
-  background-image: url("{{site.baseurl}}/images/wheel.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-2.jpg");
   min-height: 100vh;
 }
 
 .bgimg-6 {
-  background-image: url("{{site.baseurl}}/images/twigs.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-3.jpg");
   min-height: 100vh;
 }
 
 .bgimg-7 {
-  background-image: url("{{site.baseurl}}/images/moss.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-4.jpg");
   min-height: 100vh;
 }
 
@@ -163,7 +163,7 @@ footer {
 }
 
 .bgimg-9 {
-  background-image: url("{{site.baseurl}}/images/corner.jpg");
+  background-image: url("{{site.baseurl}}/images/banners-1.jpg");
   min-height: 100vh;
 }
 
